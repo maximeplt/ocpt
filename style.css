@@ -1,0 +1,47 @@
+.manrope-<uniquifier> {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Reset basique */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fond gris plein écran */
+body {
+  height: 100vh;
+  background: #cfcfcf;
+  font-family: "Manrope", sans-serif;
+}
+
+/* Positionnement en bas à gauche */
+.container {
+  position: fixed;
+    bottom: 20vh; 
+  left: 50px;    
+}
+
+/* Texte Coming Soon */
+.container h1 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+}
+
+/* Lien Contact */
+.container a {
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
